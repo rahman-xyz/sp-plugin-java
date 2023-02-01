@@ -36,7 +36,7 @@ public class VerifiedPayment extends Payment{
 	private Double payableAmount;
 	
 	/** Discount amount for the merchant.*/
-	@JsonProperty("discsount_amount")
+	@JsonProperty("discount_amount")
 	private Double discountAmount;
 	
 	/** Discount percent(%) for the merchant.*/
